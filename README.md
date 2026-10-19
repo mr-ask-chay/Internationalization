@@ -2,7 +2,12 @@
 
 This is a demo project showcasing internationalization (i18n) in a frontend Angular application. The project is hosted on Firebase and is available in multiple languages, including English, Serbian, and Dutch.
 
-**Demo URL:** [Demo Site](https://internationalization-d2aa6.web.app/en/#/home)
+**Demo URL:** [Angular Internationalization Demo](https://internationalization-d2aa6.web.app/en/)
+
+Created by [Sai Krishna Chaitanya](https://pdf-fe-kappa.vercel.app/about). See
+also [Unclasp PDF tools](https://pdf-fe-kappa.vercel.app/),
+[StartMyDev](https://start-my-dev-dashboard.vercel.app/), and
+[Git Commit Summary](https://github.com/mr-ask-chay/git-commit-summary).
 
 ## Features
 
@@ -12,7 +17,7 @@ This is a demo project showcasing internationalization (i18n) in a frontend Angu
 
 ## Usage
 
-1. Visit the [Demo Site](https://internationalization-d2aa6.web.app/en/#/home) using the link above.
+1. Visit the [Demo Site](https://internationalization-d2aa6.web.app/en/) using the link above.
 
 2. Explore the website, and you can switch between languages using the language selector provided.
 
@@ -31,7 +36,8 @@ If you want to run the project locally or contribute to its development, follow 
 1. Clone the repository:
 
    ```bash
-    https://github.com/otaku0304/Internationalization.git
+   git clone https://github.com/mr-ask-chay/Internationalization.git
+   cd Internationalization
 
 2. Install dependencies:
    cd i18n-demo
@@ -44,5 +50,3 @@ If you want to run the project locally or contribute to its development, follow 
 ## Contact
 
 If you have any questions or suggestions, please feel free to [contact me](https://linktr.ee/MR_ASK_Chay).
-
-

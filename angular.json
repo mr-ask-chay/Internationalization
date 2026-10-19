@@ -44,6 +44,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/internationalization.webp",
+              "src/robots.txt",
               "src/assets",
               "src/translate",
               "src/googlef71993b736a91d1d.html"

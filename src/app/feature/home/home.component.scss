@@ -46,10 +46,33 @@ h1 {
     margin: 2rem 0;
 }
 
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
 .cta-group {
     display: flex;
     gap: 1.5rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .cta-group {
+        gap: 0.75rem;
+    }
 }
 
 .btn-premium {

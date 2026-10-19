@@ -2,24 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-  <loc>https://internationalization-d2aa6.web.app/en/#/home</loc>
-  <lastmod>2025-04-02T13:28:28+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://internationalization-d2aa6.web.app/en/</loc>
+  <lastmod>2026-10-18</lastmod>
   <priority>1.0</priority>
 </url>
 
 <url>
-  <loc>https://internationalization-d2aa6.web.app/en/#/about</loc>
-  <lastmod>2025-04-02T13:28:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://internationalization-d2aa6.web.app/en/about</loc>
+  <lastmod>2026-10-18</lastmod>
   <priority>0.8</priority>
 </url>
 
 <url>
-  <loc>https://internationalization-d2aa6.web.app/en/#/feedback</loc>
-  <lastmod>2025-04-02T13:28:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://internationalization-d2aa6.web.app/en/feedback</loc>
+  <lastmod>2026-10-18</lastmod>
   <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/en/studio</loc>
+  <lastmod>2026-10-18</lastmod>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://internationalization-d2aa6.web.app/nl/</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/nl/about</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/nl/feedback</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/nl/studio</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+
+<url>
+  <loc>https://internationalization-d2aa6.web.app/sr/</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/sr/about</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/sr/feedback</loc>
+  <lastmod>2026-10-18</lastmod>
+</url>
+<url>
+  <loc>https://internationalization-d2aa6.web.app/sr/studio</loc>
+  <lastmod>2026-10-18</lastmod>
 </url>
 
 </urlset>

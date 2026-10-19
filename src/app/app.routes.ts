@@ -5,29 +5,30 @@ export const routes: Routes = [
     path: '',
     loadComponent: () =>
       import('./feature/home/home.component').then((m) => m.HomeComponent),
-    title: 'Home - Internationalization',
+    title: 'Angular Internationalization Demo | XLIFF Translation Studio',
     data: {
       description:
-        'Welcome to the demo of Internationalization. This is a demo of the i18n library.',
+        'Explore a multilingual Angular i18n demo with English, Dutch, and Serbian translations, an XLIFF translation studio, and practical localization examples.',
     },
   },
   {
     path: 'studio',
     loadComponent: () =>
       import('./feature/translator/translator.component').then((m) => m.TranslatorComponent),
-    title: 'Translator Studio - Crowdsourced I18n',
+    title: 'Angular XLIFF Translation Studio | Internationalization Demo',
     data: {
-      description: 'Crowdsource and collaborate on translations for the Internationalization platform.',
+      description:
+        'Explore and edit Angular XLIFF translation units, search source and target text, and export translation files in this internationalization demo.',
     },
   },
   {
     path: 'about',
     loadComponent: () =>
       import('./i18n/about/about.component').then((m) => m.AboutComponent),
-    title: 'About - Internationalization',
+    title: 'About the Author | Angular Internationalization Demo',
     data: {
       description:
-        'About the author of the demo of Internationalization.',
+        'Learn about the author and projects behind this multilingual Angular internationalization demo.',
     },
   },
   {
@@ -51,6 +52,7 @@ export const routes: Routes = [
     title: 'Page Not Found',
     data: {
       description: 'Sorry, the page you’re looking for doesn’t exist.',
+      index: false,
     },
   },
 ];
