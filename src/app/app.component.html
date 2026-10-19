@@ -5,18 +5,31 @@
     <router-outlet></router-outlet>
   </div>
 
-  <footer class="glass-footer">
+  <footer class="site-footer">
     <div class="footer-content">
-      <div class="social-links">
-        <a href="https://github.com/mr-ask-chay" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.simpleicons.org/github/b0b0b0" alt="GitHub" width="20">
-        </a>
-        <a href="https://linktr.ee/MR_ASK_Chay" target="_blank" rel="noopener">
-          <i class="material-icons">link</i>
-        </a>
-        <a href="https://pdf-fe-kappa.vercel.app/about">About Sai Krishna Chaitanya</a>
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="footer-brand-link" href="https://linktr.ee/MR_ASK_Chay">
+            <span class="footer-brand-name">mr_ask_chay</span>
+            <span class="footer-brand-label">Independent projects by Sai Krishna Chaitanya</span>
+          </a>
+          <p>Practical tools for documents, development workflows, and localization.</p>
+        </div>
+
+        <nav class="footer-projects" aria-label="Projects and profiles">
+          <a href="https://mraskchay.vercel.app/">Sai Krishna Chaitanya portfolio</a>
+          <a href="https://pdf-fe-kappa.vercel.app/">Unclasp PDF tools</a>
+          <a href="https://start-my-dev-dashboard.vercel.app/">StartMyDev</a>
+          <a href="https://github.com/mr-ask-chay/git-commit-summary">Git Commit Summary</a>
+          <a href="https://github.com/mr-ask-chay" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linktr.ee/MR_ASK_Chay" target="_blank" rel="noopener noreferrer">Personal profile</a>
+        </nav>
       </div>
-      <p>&copy; {{ currentYear }} • Developed with &hearts; by Sai Annam (&#64;mr_ask_chay)</p>
+
+      <div class="footer-meta">
+        <span>&copy; {{ currentYear }} Sai Krishna Chaitanya</span>
+        <a href="https://internationalization-d2aa6.web.app/en/">Angular Internationalization Demo</a>
+      </div>
     </div>
   </footer>
 </div>

@@ -4,7 +4,22 @@
       "target": "dev",
       "public": "dist/internationalization",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "redirects": [
+        {
+          "source": "/",
+          "destination": "/en/",
+          "type": 301
+        }
+      ],
       "rewrites": [
+        {
+          "source": "/robots.txt",
+          "destination": "/en/robots.txt"
+        },
+        {
+          "source": "/sitemap.xml",
+          "destination": "/en/assets/sitemap.xml"
+        },
         {
           "source": "/en/**",
           "destination": "/en/index.html"
@@ -27,7 +42,22 @@
       "target": "prod",
       "public": "dist/internationalization",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "redirects": [
+        {
+          "source": "/",
+          "destination": "/en/",
+          "type": 301
+        }
+      ],
       "rewrites": [
+        {
+          "source": "/robots.txt",
+          "destination": "/en/robots.txt"
+        },
+        {
+          "source": "/sitemap.xml",
+          "destination": "/en/assets/sitemap.xml"
+        },
         {
           "source": "/en/**",
           "destination": "/en/index.html"

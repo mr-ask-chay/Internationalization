@@ -145,7 +145,9 @@ export class TranslationManagerService {
     const a = document.createElement('a');
     a.href = url;
     a.download = filename;
+    document.body.appendChild(a);
     a.click();
-    window.URL.revokeObjectURL(url);
+    a.remove();
+    window.setTimeout(() => window.URL.revokeObjectURL(url), 1000);
   }
 }

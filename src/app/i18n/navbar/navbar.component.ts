@@ -15,7 +15,8 @@ export class NavbarComponent {
   private readonly navigateToPdfPasswordRemover = AppConfig.pdfPasswordRemover();
   public themeService = inject(ThemeService);
 
-  currentLocale = window.location.pathname.split('/')[1] || 'en';
+  private readonly supportedLocales = ['en', 'nl', 'sr'];
+  currentLocale = this.getCurrentLocale();
 
   languages = [
     { code: 'en', label: 'English' },
@@ -28,11 +29,20 @@ export class NavbarComponent {
   }
 
   switchSiteLanguage(code: string) {
-    window.location.href = `/${code}${window.location.pathname.substring(3) || ''}`;
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    const routeSegments = this.supportedLocales.includes(pathSegments[0])
+      ? pathSegments.slice(1)
+      : pathSegments;
+    const route = routeSegments.length ? `/${routeSegments.join('/')}` : '/';
+    window.location.href = `/${code}${route}`;
   }
 
   toggleTheme() {
     this.themeService.toggleTheme();
   }
-}
 
+  private getCurrentLocale() {
+    const locale = window.location.pathname.split('/')[1];
+    return this.supportedLocales.includes(locale) ? locale : 'en';
+  }
+}

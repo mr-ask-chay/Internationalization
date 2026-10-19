@@ -32,10 +32,12 @@
         </button>
         <button class="btn-premium primary" (click)="exportXliff()">
           <i class="material-icons">download</i>
-          <span>Save XLIFF</span>
+          <span>Download XLIFF</span>
         </button>
       </div>
     </header>
+
+    <p class="draft-status" role="status" aria-live="polite">{{ draftStatus() }}</p>
 
     <div class="units-grid">
       <div class="unit-card" *ngFor="let item of filteredUnits(); let i = index"
@@ -47,14 +49,15 @@
 
         <div class="translation-split">
           <div class="source-pane">
-            <label>Source Text</label>
+            <label>Source Text (read-only)</label>
             <p>{{ item.source }}</p>
           </div>
 
           <div class="target-pane">
-            <label>Current Translation ({{ activeLang | uppercase }})</label>
+            <label for="translation-{{ item.id }}">Translation draft ({{ activeLang | uppercase }})</label>
             <textarea [placeholder]="'Enter ' + activeLang + ' version...'" [value]="item.target || ''"
-              (input)="updateValue(item.id, $event)"></textarea>
+              (input)="updateValue(item.id, $event)" [id]="'translation-' + item.id"
+              [attr.aria-label]="'Translation draft for ' + item.id"></textarea>
           </div>
         </div>
       </div>

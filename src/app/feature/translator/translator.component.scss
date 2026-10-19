@@ -150,6 +150,13 @@
   }
 }
 
+.draft-status {
+  margin: -1.75rem 0 2rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 /* Custom UI Elements */
 .lang-chip {
   display: flex;

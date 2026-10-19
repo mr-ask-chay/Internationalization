@@ -4,7 +4,7 @@ This is a demo project showcasing internationalization (i18n) in a frontend Angu
 
 **Demo URL:** [Angular Internationalization Demo](https://internationalization-d2aa6.web.app/en/)
 
-Created by [Sai Krishna Chaitanya](https://pdf-fe-kappa.vercel.app/about). See
+Created by [Sai Krishna Chaitanya](https://mraskchay.vercel.app/). See
 also [Unclasp PDF tools](https://pdf-fe-kappa.vercel.app/),
 [StartMyDev](https://start-my-dev-dashboard.vercel.app/), and
 [Git Commit Summary](https://github.com/mr-ask-chay/git-commit-summary).

@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   development: false,
   local: false,
-  pdfPasswordRemover: 'https://angular-pdf-pr-master.onrender.com/',
+  pdfPasswordRemover: 'https://pdf-fe-kappa.vercel.app/pdf-password-remover',
   firebaseConfig: {
     apiKey: 'AIzaSyDSAy5bxFPQdGc8tTSb60B8DVZBC-Z2M00',
     authDomain: 'internationalization-d2aa6.firebaseapp.com',
